@@ -1,4 +1,4 @@
-package Libro;
+package Ejercicio5Libro;
 
 import java.util.Arrays;
 
@@ -28,7 +28,10 @@ public class Libro {
         return autor;
     }
 
+    // Entiendo que el numero de páginas vendrá dado por la cantidad de elementos página añadidos al array. No se
+    // debería poder setear.
     int getNumPag(){
+        numPaginas = paginas.length;
         return numPaginas;
     }
 
