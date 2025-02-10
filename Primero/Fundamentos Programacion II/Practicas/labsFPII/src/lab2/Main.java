@@ -32,5 +32,9 @@ public class Main {
         System.out.println(nc2.multiplicarEscalar(3).toString());
         System.out.println(nc5.multiplicarEscalar(5).toString());
 
+        // VARIOS NUMEROS COMPLEJOS
+        VariosNumComplejos vnc = new VariosNumComplejos(10);
+        System.out.println("Suma de complejos: "+vnc.sumaTodos().toString());
+        System.out.println(vnc.toString());
     }
 }
