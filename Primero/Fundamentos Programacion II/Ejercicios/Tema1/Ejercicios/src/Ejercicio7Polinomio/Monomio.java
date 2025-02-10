@@ -28,7 +28,13 @@ public class Monomio {
 
     @Override
     public String toString(){
-        return this.coeficiente+"x^"+this.exponente;
+        String exp;
+        if(this.exponente > 0)
+            exp = "x^"+this.exponente;
+        else
+            exp = "";
+
+        return this.coeficiente+exp;
     }
 
     public Monomio suma(Monomio m){
