@@ -143,6 +143,14 @@ public class NumeroComplejo {
      */
     @Override
     public String toString() {
-        return real+" + "+imag+"i";
+        StringBuilder sb = new StringBuilder();
+        sb.append(real);
+        if(imag >0)
+            sb.append("+").append(imag);
+        else
+            sb.append(imag);
+
+        sb.append("i");
+        return sb.toString();
     }
 }

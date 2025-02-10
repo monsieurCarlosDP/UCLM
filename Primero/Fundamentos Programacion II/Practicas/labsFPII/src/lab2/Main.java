@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         NumeroComplejo nc1 = new NumeroComplejo();
-        NumeroComplejo nc2 = new NumeroComplejo(2,3);
+        NumeroComplejo nc2 = new NumeroComplejo(2,-3);
         NumeroComplejo nc3 = new NumeroComplejo(2.1,3.3);
         NumeroComplejo nc4 = new NumeroComplejo(nc2);
         NumeroComplejo nc5 = new NumeroComplejo(5,10);
