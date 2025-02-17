@@ -43,7 +43,6 @@ public class NumeroComplejo {
         this.imag = imag;
     }
 
-
     /**
      * Constructor que inicializa el n.c. a partir de otro número complejo
      *
