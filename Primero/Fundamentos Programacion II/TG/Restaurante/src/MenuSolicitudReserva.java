@@ -1,3 +1,5 @@
+package src;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -7,6 +9,10 @@ public class MenuSolicitudReserva extends JFrame {
     private JButton comprobarButton;
     private JPanel PanelA;
     private JTextArea textArea1;
+    private JTextArea textArea2;
+    private JTextArea textArea3;
+    private JButton button1;
+    private JButton button2;
 
     public MenuSolicitudReserva() {
         setContentPane(PanelA);
